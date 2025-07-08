@@ -1,0 +1,38 @@
+
+{
+  "WSSS": {
+    "name": "Singapore Changi Airport",
+    "elevation_ft": 22,
+    "runways": [
+      { "id": "02L/20R", "length_m": 4000 },
+      { "id": "02C/20C", "length_m": 4000 },
+      { "id": "02R/20L", "length_m": 4000 }
+    ]
+  },
+  "KJFK": {
+    "name": "John F. Kennedy International Airport",
+    "elevation_ft": 13,
+    "runways": [
+      { "id": "04L/22R", "length_m": 3682 },
+      { "id": "04R/22L", "length_m": 2560 },
+      { "id": "13L/31R", "length_m": 3048 },
+      { "id": "13R/31L", "length_m": 4442 }
+    ]
+  },
+  "EGLL": {
+    "name": "London Heathrow Airport",
+    "elevation_ft": 83,
+    "runways": [
+      { "id": "09L/27R", "length_m": 3902 },
+      { "id": "09R/27L", "length_m": 3660 }
+    ]
+  },
+  "OMDB": {
+    "name": "Dubai International Airport",
+    "elevation_ft": 62,
+    "runways": [
+      { "id": "12L/30R", "length_m": 4000 },
+      { "id": "12R/30L", "length_m": 4447 }
+    ]
+  }
+}

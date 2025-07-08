@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EFB Interactive Checklist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Required for Tailwind CSS dark mode to work with a class strategy
+      tailwind.config = {
+        darkMode: 'class',
+      }
+      // Fixes FOUC for dark mode
+      try {
+        if (localStorage.getItem('efb_theme_v1') === '"dark"' || (!('efb_theme_v1' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark')
+        } else {
+          document.documentElement.classList.remove('dark')
+        }
+      } catch (_) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@react-spring/web": "https://esm.sh/@react-spring/web@9.7.3",
+    "@use-gesture/react": "https://esm.sh/@use-gesture/react@10.3.1"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-DXp9cb16.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-0PNVk5Yk.css">
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>

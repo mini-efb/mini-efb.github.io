@@ -1,0 +1,6 @@
+[submodule "data/aircrafts/737"]
+	path = data/aircrafts/737
+	url = https://github.com/LLJY/737-checklist
+[submodule "data/aircrafts/a320"]
+	path = data/aircrafts/a320
+	url = https://github.com/LLJY/a320-checklist

@@ -1,0 +1,13 @@
+
+[
+  {
+    "id": "A320",
+    "name": "Airbus A320neo",
+    "profileUrl": "./data/aircrafts/a320/aircraft.json"
+  },
+  {
+    "id": "737",
+    "name": "Boeing 737-800X",
+    "profileUrl": "./data/aircrafts/737/aircraft.json"
+  }
+]
